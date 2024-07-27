@@ -1,10 +1,12 @@
 body {
-  background-color: blueviolet;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-attachment: fixed;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 a {
-  color: blueviolet;
+  color: #b692c2;
 }
 
 .weather-app {
@@ -17,12 +19,12 @@ a {
 }
 
 header {
-  border-bottom: 1px solid blueviolet;
+  border-bottom: 1px solid #bfe4f5;
   padding: 0 0 30px 0;
 }
 
 .search-form-input {
-  background-color: blueviolet;
+  background-color: #b6e2f7;
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -31,13 +33,18 @@ header {
 }
 
 .search-form-button {
-  background-color: purple;
+  background-color: #f3dbd1;
   padding: 15px 30px;
   border: none;
   border-radius: 6px;
-  color: white;
+  color: black;
   margin-left: 5px;
   font-size: 16px;
+}
+
+.search-form-button:hover {
+  background-color: #03346e;
+  color: white;
 }
 
 main {
@@ -53,12 +60,12 @@ main {
 .weather-app-details {
   font-size: 16px;
   line-height: 24px;
-  color: pink;
+  color: #694f8e;
   font-weight: 500;
 }
 
 .weather-app-details strong {
-  color: blue;
+  color: #e3a5c7;
 }
 
 .weather-app-container {
@@ -71,9 +78,9 @@ main {
 }
 
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
-  margin-left: 10px;
+  font-size: 50px;
+  margin-top: 24px;
+  margin-left: 28px;
 }
 
 .weather-app-unit {
@@ -87,7 +94,7 @@ main {
 }
 
 footer {
-  border-top: 1px solid blueviolet;
+  border-top: 1px solid #bfe4f5;
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 13px;
